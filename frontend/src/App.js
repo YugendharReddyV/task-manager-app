@@ -1,7 +1,7 @@
 // frontend/src/App.js
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import TaskManager from "./TaskManager";
+import TaskManager from "./TaskManager.tsx";
 
 function App() {
   const [tasks, setTasks] = useState([]);
